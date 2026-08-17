@@ -30,6 +30,7 @@ The builder never changes these fields without explicit approval and new evidenc
 - Tools and proficiency
 - Portfolio test results
 - Client or project status
+- Software proficiency and years of use
 
 ## Allowed tailoring
 
@@ -50,6 +51,8 @@ The builder never changes these fields without explicit approval and new evidenc
 
 No generated claim reaches the final resume unless its evidence record is approved for resume use.
 
+Software outside the approved baseline triggers a question for Farrah before the builder marks the requirement as missing.
+
 ## Output versions
 
 - Master resume
@@ -59,4 +62,3 @@ No generated claim reaches the final resume unless its evidence record is approv
 - Job-specific resume
 
 Each version receives a unique ID and a change report explaining what moved, what changed, why the change improves alignment, and which evidence supports each claim.
-

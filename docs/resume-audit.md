@@ -20,7 +20,8 @@ Source reviewed: `Client Success Manager Resume.pdf`, one page.
 - Add CF-001 and CF-002 under an independent Agentic AI portfolio section.
 - Add an ATS-friendly summary aligned with customer-facing AI roles.
 - Replace the broad skills block with grouped, evidence-supported keywords.
-- Add education and completed certifications after verification.
+- Add the bachelor’s degree only after the institution and degree program are confirmed. Use December 2026 as the expected graduation date.
+- Do not store, display, or reference planned or in-progress certifications.
 - Add named tools only after confirming hands-on use.
 - Verify every outcome statement currently lacking a number or source.
 - Confirm the LinkedIn URL rather than retaining linked display text alone.
@@ -34,7 +35,6 @@ Source reviewed: `Client Success Manager Resume.pdf`, one page.
 - Operational-efficiency results at Fair
 - Dealer adoption and performance results at Porsche
 - Number and types of financial-institution clients supported
-- Education, certifications, and technical-tool proficiency
+- Education details and technical-tool proficiency
 
 No metric should enter a tailored resume until Farrah confirms the source and wording.
-

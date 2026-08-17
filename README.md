@@ -12,6 +12,12 @@ Version 0.1 establishes the scoring and evidence foundation.
 - 75 percent qualification gate
 - Non-negotiable requirement gate
 - Evidence-locked resume tailoring plan
+- Conservative software matching with candidate confirmation
+- Bachelor’s expected graduation recorded as December 2026
+- No planned or in-progress certifications stored or used
+- Verified public-contact research rules with separately labeled inferred emails
+- Google Sheets and Notion tracking schemas
+- Separate future consulting-prospecting mode
 - Clear separation of verified evidence, user-provided evidence, inference, and recommendation
 - JSON output suitable for a spreadsheet or later database
 
@@ -77,13 +83,15 @@ python3 -m src.application_buddy.resume_builder \
 
 ## Accuracy contract
 
-Application Buddy never invents jobs, dates, salaries, contacts, requirements, qualifications, metrics, or submission status. Unknown information stays unknown. Submission only receives a `SUBMITTED` status after confirmation from the application system.
+Application Buddy never invents jobs, dates, salaries, contacts, requirements, qualifications, metrics, or submission status. Unknown information stays unknown. A generated email pattern is always labeled `INFERRED`, never `VERIFIED`, and requires source evidence and verification before outreach. Submission only receives a `SUBMITTED` status after confirmation from the application system.
 
 ## Planned releases
 
 - Version 0.2: job intake, requirement extraction, and recency records
-- Version 0.3: spreadsheet tracker and role review queue
+- Version 0.3: Google Sheets or Notion tracker and role review queue
 - Version 0.4: tailored resume and application-answer preparation
 - Version 0.5: verified public people research and outreach preparation
 - Version 0.6: approval-controlled browser workflow
 - Version 1.0: modular job-search workflow with audit logs
+
+Consulting lead generation will live in a separate operating mode, or a separate agent if its scope grows. Job contacts and sales prospects never share scoring, pipelines, messages, or status fields.

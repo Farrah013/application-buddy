@@ -1,6 +1,28 @@
 {
   "candidate": "Farrah Jean-Jacques",
   "portfolio": "https://jeanxai.dev",
+  "education": {
+    "highest_confirmed_level": "High school",
+    "bachelors_status": "In progress",
+    "expected_graduation": "2026-12",
+    "institution": "USER_CONFIRMATION_REQUIRED",
+    "degree_program": "USER_CONFIRMATION_REQUIRED"
+  },
+  "credentials": [],
+  "software_baseline": [
+    {"name": "HubSpot", "category": "CRM", "status": "self_reported_experience"},
+    {"name": "GitHub", "category": "source_control", "status": "self_reported_experience"},
+    {"name": "Cursor", "category": "AI_development_environment", "status": "self_reported_experience"},
+    {"name": "Claude", "category": "AI_assistant", "status": "self_reported_experience"},
+    {"name": "Salesforce", "category": "CRM", "status": "self_reported_experience"},
+    {"name": "Zendesk", "category": "customer_support", "status": "self_reported_experience"},
+    {"name": "Looker", "category": "business_intelligence", "status": "self_reported_experience"},
+    {"name": "Notion", "category": "knowledge_and_work_management", "status": "self_reported_experience"},
+    {"name": "Slack", "category": "team_communication", "status": "self_reported_experience"},
+    {"name": "Google Workspace", "category": "productivity_suite", "status": "self_reported_experience", "user_term": "Google Suite"},
+    {"name": "Microsoft Office Suite", "category": "productivity_suite", "status": "self_reported_experience"}
+  ],
+  "software_discovery_rule": "Ask the candidate about any job-listed software outside this baseline before marking it not met.",
   "evidence": [
     {
       "id": "resume-investifi-onboarding",
@@ -46,4 +68,3 @@
     }
   ]
 }
-
