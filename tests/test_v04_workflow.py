@@ -4,6 +4,7 @@ import unittest
 from pathlib import Path
 
 from src.application_buddy.application_answers import draft_answer
+from src.application_buddy.ats_validator import run_ats_gate
 from src.application_buddy.change_report import build_change_report
 from src.application_buddy.docx_renderer import render_resume_docx
 from src.application_buddy.resume_draft import create_resume_draft
@@ -22,6 +23,12 @@ class V04WorkflowTests(unittest.TestCase):
         draft = create_resume_draft(self.job, self.evidence, self.source)
         self.assertEqual(draft["document_status"], "REVIEW_DRAFT")
         self.assertFalse(draft["final_use_allowed"])
+
+    def test_candidate_linkedin_is_available_for_resumes_and_applications(self):
+        draft = create_resume_draft(self.job, self.evidence, self.source)
+        expected = "https://www.linkedin.com/in/farrah-j-8b6407176/"
+        self.assertEqual(draft["candidate"]["linkedin"], expected)
+        self.assertEqual(self.evidence["linkedin"], expected)
 
     def test_unverified_portfolio_skills_stay_out_of_resume(self):
         draft = create_resume_draft(self.job, self.evidence, self.source)
@@ -48,6 +55,18 @@ class V04WorkflowTests(unittest.TestCase):
             path = Path(directory) / "draft.docx"
             render_resume_docx(draft, str(path))
             self.assertTrue(path.exists())
+
+    def test_ats_gate_passes_before_appearance_review(self):
+        draft = create_resume_draft(self.job, self.evidence, self.source)
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "draft.docx"
+            render_resume_docx(draft, str(path))
+            result = run_ats_gate(draft, str(path))
+            self.assertTrue(result["passed"])
+            self.assertTrue(result["appearance_review_allowed"])
+            from docx import Document
+            extracted = "\n".join(p.text for p in Document(path).paragraphs)
+            self.assertIn("https://www.linkedin.com/in/farrah-j-8b6407176/", extracted)
 
 
 if __name__ == "__main__":

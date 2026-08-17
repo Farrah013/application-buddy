@@ -1,0 +1,21 @@
+{
+  "priority": "ATS_FIRST",
+  "passed": true,
+  "content": {
+    "gate": "ATS_CONTENT",
+    "passed": true,
+    "failures": []
+  },
+  "document": {
+    "gate": "ATS_DOCUMENT",
+    "passed": true,
+    "failures": [],
+    "extracted_character_count": 2653,
+    "required_sections": [
+      "PROFESSIONAL SUMMARY",
+      "PROFESSIONAL EXPERIENCE",
+      "EDUCATION"
+    ]
+  },
+  "appearance_review_allowed": true
+}

@@ -26,9 +26,12 @@ Version 0.4 adds evidence-locked résumé and application-answer generation to t
 - Google Sheets-ready tracker workbook
 - Review-only résumé content generation
 - ATS-readable DOCX rendering
+- Locked LinkedIn profile data for resumes and application forms
 - Sensitive application-question blocking
 - Evidence-bound application-answer drafts
 - Auditable résumé change reports
+- ATS content and document-structure gate
+- Appearance review blocked until ATS checks pass
 - Clear separation of verified evidence, user-provided evidence, inference, and recommendation
 - JSON output suitable for a spreadsheet or later database
 
@@ -67,6 +70,7 @@ application-buddy/
     contact_records.py
     change_report.py
     application_answers.py
+    ats_validator.py
     docx_renderer.py
     job_intake.py
     recency.py
@@ -114,6 +118,7 @@ Application Buddy never invents jobs, dates, salaries, contacts, requirements, q
 - Version 0.2: education, contact research, tracking, and consulting-mode rules
 - Version 0.3: job intake, requirement extraction, recency records, contact validation, approval queue, and Google Sheets-ready tracker
 - Version 0.4: review-only résumé generation, DOCX rendering, application-answer controls, and change reports
+- Version 0.4.1: ATS-first résumé gate and appearance-review sequencing
 
 ## Planned releases
 

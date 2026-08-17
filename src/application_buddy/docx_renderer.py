@@ -11,6 +11,7 @@ from docx.shared import Inches, Pt, RGBColor
 
 
 def render_resume_docx(draft: dict[str, Any], output_path: str) -> str:
+    """Use paragraphs only. ATS structure takes priority over visual styling."""
     doc = Document()
     section = doc.sections[0]
     section.top_margin = Inches(0.6); section.bottom_margin = Inches(0.6)
@@ -24,7 +25,13 @@ def render_resume_docx(draft: dict[str, Any], output_path: str) -> str:
     run = name.add_run(draft["candidate"]["name"]); run.bold = True; run.font.name = "Arial"; run.font.size = Pt(18); run.font.color.rgb = RGBColor(23, 37, 84)
     contact = doc.add_paragraph()
     contact.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    contact.add_run(" | ".join([draft["candidate"]["location"], draft["candidate"]["phone"], draft["candidate"]["email"], draft["candidate"]["portfolio"]]))
+    contact.add_run(" | ".join([
+        draft["candidate"]["location"],
+        draft["candidate"]["phone"],
+        draft["candidate"]["email"],
+        draft["candidate"]["linkedin"],
+        draft["candidate"]["portfolio"],
+    ]))
     flag = doc.add_paragraph(); flag.alignment = WD_ALIGN_PARAGRAPH.CENTER
     marker = flag.add_run("REVIEW DRAFT - NOT APPROVED FOR SUBMISSION"); marker.bold = True; marker.font.size = Pt(8); marker.font.color.rgb = RGBColor(153, 27, 27)
 
