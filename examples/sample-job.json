@@ -1,0 +1,48 @@
+{
+  "company": "Example AI Company",
+  "title": "Customer Success Manager, AI",
+  "source_url": "https://example.com/jobs/123",
+  "requirements": [
+    {
+      "id": "r1",
+      "category": "core_responsibilities",
+      "text": "Lead enterprise customer onboarding and implementation.",
+      "status": "met",
+      "evidence_ids": ["resume-investifi-onboarding"],
+      "non_negotiable": false
+    },
+    {
+      "id": "r2",
+      "category": "required_qualifications",
+      "text": "Translate customer feedback for product and engineering teams.",
+      "status": "met",
+      "evidence_ids": ["resume-block-voc"],
+      "non_negotiable": false
+    },
+    {
+      "id": "r3",
+      "category": "required_qualifications",
+      "text": "Hands-on experience with API-based AI workflows.",
+      "status": "partial",
+      "evidence_ids": ["portfolio-cf002"],
+      "non_negotiable": false
+    },
+    {
+      "id": "r4",
+      "category": "preferred_qualifications",
+      "text": "Experience with LLM tool calling.",
+      "status": "partial",
+      "evidence_ids": ["portfolio-cf002"],
+      "non_negotiable": false
+    },
+    {
+      "id": "r5",
+      "category": "domain_alignment",
+      "text": "Experience in customer-facing SaaS roles.",
+      "status": "met",
+      "evidence_ids": ["resume-investifi-onboarding", "resume-block-technical"],
+      "non_negotiable": false
+    }
+  ]
+}
+

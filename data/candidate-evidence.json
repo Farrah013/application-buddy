@@ -1,0 +1,49 @@
+{
+  "candidate": "Farrah Jean-Jacques",
+  "portfolio": "https://jeanxai.dev",
+  "evidence": [
+    {
+      "id": "resume-investifi-onboarding",
+      "type": "verified_professional",
+      "source": "Client Success Manager Resume.pdf",
+      "statement": "Led onboarding projects for financial institutions and coordinated cross-functional teams.",
+      "skills": ["customer onboarding", "implementation", "cross-functional collaboration", "SaaS adoption"]
+    },
+    {
+      "id": "resume-investifi-documentation",
+      "type": "verified_professional",
+      "source": "Client Success Manager Resume.pdf",
+      "statement": "Created training resources, FAQs, process guides, and project documentation.",
+      "skills": ["documentation", "training", "enablement", "knowledge management"]
+    },
+    {
+      "id": "resume-block-technical",
+      "type": "verified_professional",
+      "source": "Client Success Manager Resume.pdf",
+      "statement": "Served as a primary technical point of contact and coordinated complex issue resolution.",
+      "skills": ["technical support", "root cause analysis", "stakeholder management", "issue resolution"]
+    },
+    {
+      "id": "resume-block-voc",
+      "type": "verified_professional",
+      "source": "Client Success Manager Resume.pdf",
+      "statement": "Gathered merchant feedback and translated recurring pain points into recommendations for Product and Engineering.",
+      "skills": ["voice of customer", "needs analysis", "product feedback", "customer insights"]
+    },
+    {
+      "id": "portfolio-cf001",
+      "type": "user_provided_unverified",
+      "source": "Portfolio handoff summary, artifact audit pending",
+      "statement": "Completed a simulated enterprise AI opportunity discovery project for a Vehicle Status Digital Worker.",
+      "skills": ["AI opportunity discovery", "workflow analysis", "use-case prioritization", "success metrics", "human escalation"]
+    },
+    {
+      "id": "portfolio-cf002",
+      "type": "user_provided_unverified",
+      "source": "Portfolio handoff summary, artifact audit pending",
+      "statement": "Built a Python and Claude API Digital Worker using JSON data and tool calling, then ran six functional scenarios.",
+      "skills": ["Python", "Claude API", "JSON", "tool calling", "functional testing", "escalation design"]
+    }
+  ]
+}
+
