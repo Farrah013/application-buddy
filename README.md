@@ -4,7 +4,7 @@ Application Buddy is an evidence-first job-search agent for customer-facing AI r
 
 ## Current release
 
-Version 0.1 establishes the scoring and evidence foundation.
+Version 0.4 adds evidence-locked résumé and application-answer generation to the intake, tracking, scoring, and approval foundation.
 
 - Resume evidence inventory
 - Portfolio evidence placeholders for CF-001 and CF-002
@@ -18,6 +18,17 @@ Version 0.1 establishes the scoring and evidence foundation.
 - Verified public-contact research rules with separately labeled inferred emails
 - Google Sheets and Notion tracking schemas
 - Separate future consulting-prospecting mode
+- Validated job intake records
+- Conservative requirement extraction with mandatory review
+- Recency assessment that preserves unverified posting dates
+- Enforced contact evidence and inferred-email safeguards
+- Human approval queue for consequential actions
+- Google Sheets-ready tracker workbook
+- Review-only résumé content generation
+- ATS-readable DOCX rendering
+- Sensitive application-question blocking
+- Evidence-bound application-answer drafts
+- Auditable résumé change reports
 - Clear separation of verified evidence, user-provided evidence, inference, and recommendation
 - JSON output suitable for a spreadsheet or later database
 
@@ -49,10 +60,22 @@ application-buddy/
     ai-agent-project-ideas.md
   examples/
     sample-job.json
+    sample-job-intake.json
   src/application_buddy/
     __init__.py
+    approval_queue.py
+    contact_records.py
+    change_report.py
+    application_answers.py
+    docx_renderer.py
+    job_intake.py
+    recency.py
+    requirement_extractor.py
+    resume_draft.py
     resume_builder.py
     scorer.py
+  templates/
+    application-buddy-tracker-v0.3.xlsx
   tests/
     test_scorer.py
   data/
@@ -85,11 +108,15 @@ python3 -m src.application_buddy.resume_builder \
 
 Application Buddy never invents jobs, dates, salaries, contacts, requirements, qualifications, metrics, or submission status. Unknown information stays unknown. A generated email pattern is always labeled `INFERRED`, never `VERIFIED`, and requires source evidence and verification before outreach. Submission only receives a `SUBMITTED` status after confirmation from the application system.
 
+## Release status
+
+- Version 0.1: evidence inventory, scoring, and résumé tailoring foundation
+- Version 0.2: education, contact research, tracking, and consulting-mode rules
+- Version 0.3: job intake, requirement extraction, recency records, contact validation, approval queue, and Google Sheets-ready tracker
+- Version 0.4: review-only résumé generation, DOCX rendering, application-answer controls, and change reports
+
 ## Planned releases
 
-- Version 0.2: job intake, requirement extraction, and recency records
-- Version 0.3: Google Sheets or Notion tracker and role review queue
-- Version 0.4: tailored resume and application-answer preparation
 - Version 0.5: verified public people research and outreach preparation
 - Version 0.6: approval-controlled browser workflow
 - Version 1.0: modular job-search workflow with audit logs

@@ -1,0 +1,284 @@
+{
+  "document_status": "REVIEW_DRAFT",
+  "final_use_allowed": false,
+  "company": "Example AI Company",
+  "target_title": "Customer Success Manager, AI",
+  "candidate": {
+    "name": "Farrah Jean-Jacques",
+    "location": "Miami, FL",
+    "phone": "(305) 397-6396",
+    "email": "f.jeanjacq@gmail.com",
+    "portfolio": "https://jeanxai.dev"
+  },
+  "summary": {
+    "text": "Customer Success and implementation professional with experience in customer onboarding, training, technical issue resolution, cross-functional coordination, and customer feedback workflows.",
+    "evidence_ids": [
+      "resume-block-technical",
+      "resume-block-voc",
+      "resume-investifi-documentation",
+      "resume-investifi-onboarding"
+    ],
+    "approval_status": "REVIEW_REQUIRED"
+  },
+  "skills": [
+    "customer onboarding",
+    "implementation",
+    "product feedback",
+    "SaaS adoption"
+  ],
+  "experience": [
+    {
+      "record_id": "role-investifi-csm",
+      "employer": "InvestiFi",
+      "title": "Client Success Manager",
+      "location": "Miami, FL",
+      "start": "July 2024",
+      "end": "February 2025",
+      "source": "Client Success Manager Resume.pdf",
+      "bullets": [
+        {
+          "id": "investifi-1",
+          "text": "Led onboarding projects for financial institutions by coordinating cross-functional teams and supporting SaaS adoption.",
+          "evidence_ids": [
+            "resume-investifi-onboarding"
+          ],
+          "approval_status": "SOURCE_VERIFIED",
+          "relevance_terms": [
+            "onboarding",
+            "saas",
+            "teams"
+          ],
+          "relevance_score": 3
+        },
+        {
+          "id": "investifi-3",
+          "text": "Managed daily reconciliation and issue-resolution workflows by tracking tasks, identifying roadblocks, and coordinating with internal stakeholders.",
+          "evidence_ids": [
+            "resume-investifi-onboarding"
+          ],
+          "approval_status": "SOURCE_VERIFIED",
+          "relevance_terms": [
+            "workflows"
+          ],
+          "relevance_score": 1
+        },
+        {
+          "id": "investifi-4",
+          "text": "Supported client accounting teams through structured communication and project updates aligned with client goals.",
+          "evidence_ids": [
+            "resume-investifi-onboarding"
+          ],
+          "approval_status": "SOURCE_VERIFIED",
+          "relevance_terms": [
+            "teams"
+          ],
+          "relevance_score": 1
+        },
+        {
+          "id": "investifi-2",
+          "text": "Created and maintained training resources, FAQs, process guides, and project documentation.",
+          "evidence_ids": [
+            "resume-investifi-documentation"
+          ],
+          "approval_status": "SOURCE_VERIFIED",
+          "relevance_terms": [],
+          "relevance_score": 0
+        }
+      ]
+    },
+    {
+      "record_id": "role-block-product-specialist",
+      "employer": "Block Inc.",
+      "title": "Product Specialist",
+      "location": "Atlanta, GA",
+      "start": "March 2021",
+      "end": "February 2023",
+      "source": "Client Success Manager Resume.pdf",
+      "bullets": [
+        {
+          "id": "block-1",
+          "text": "Collaborated with Product, Engineering, Sales, and Marketing teams in an Agile environment to support product initiatives from planning through launch.",
+          "evidence_ids": [
+            "resume-block-voc"
+          ],
+          "approval_status": "SOURCE_VERIFIED",
+          "relevance_terms": [
+            "engineering",
+            "in",
+            "product",
+            "teams"
+          ],
+          "relevance_score": 4
+        },
+        {
+          "id": "block-2",
+          "text": "Gathered merchant feedback, identified recurring pain points, and translated findings into recommendations for Product and Engineering.",
+          "evidence_ids": [
+            "resume-block-voc"
+          ],
+          "approval_status": "SOURCE_VERIFIED",
+          "relevance_terms": [
+            "engineering",
+            "feedback",
+            "product"
+          ],
+          "relevance_score": 3
+        },
+        {
+          "id": "block-3",
+          "text": "Led customer onboarding and product training programs supporting adoption and long-term engagement.",
+          "evidence_ids": [
+            "resume-block-technical"
+          ],
+          "approval_status": "SOURCE_VERIFIED",
+          "relevance_terms": [
+            "onboarding",
+            "product"
+          ],
+          "relevance_score": 2
+        },
+        {
+          "id": "block-4",
+          "text": "Served as a primary technical contact for complex product issues, coordinating root-cause analysis and resolution across teams.",
+          "evidence_ids": [
+            "resume-block-technical"
+          ],
+          "approval_status": "SOURCE_VERIFIED",
+          "relevance_terms": [
+            "product",
+            "teams"
+          ],
+          "relevance_score": 2
+        }
+      ]
+    },
+    {
+      "record_id": "role-fair-senior-cx",
+      "employer": "Fair Inc.",
+      "title": "Senior Customer Experience Ambassador",
+      "location": "Union City, GA",
+      "start": "July 2019",
+      "end": "April 2020",
+      "source": "Client Success Manager Resume.pdf",
+      "bullets": [
+        {
+          "id": "fair-1",
+          "text": "Directed recruitment and onboarding for a 25-person team, aligning training plans with business goals and customer-service standards.",
+          "evidence_ids": [],
+          "approval_status": "SOURCE_VERIFIED",
+          "relevance_terms": [
+            "onboarding"
+          ],
+          "relevance_score": 1
+        },
+        {
+          "id": "fair-2",
+          "text": "Designed process improvements based on user feedback and needs analysis.",
+          "evidence_ids": [],
+          "approval_status": "SOURCE_VERIFIED",
+          "relevance_terms": [
+            "feedback"
+          ],
+          "relevance_score": 1
+        },
+        {
+          "id": "fair-3",
+          "text": "Documented workflows and coordinated operational improvement work to address service gaps.",
+          "evidence_ids": [],
+          "approval_status": "SOURCE_VERIFIED",
+          "relevance_terms": [
+            "workflows"
+          ],
+          "relevance_score": 1
+        }
+      ]
+    },
+    {
+      "record_id": "role-porsche-csm",
+      "employer": "Porsche Cars North America",
+      "title": "Client Success Manager",
+      "location": "Miami, FL",
+      "start": "May 2014",
+      "end": "June 2019",
+      "source": "Client Success Manager Resume.pdf",
+      "bullets": [
+        {
+          "id": "porsche-3",
+          "text": "Oversaw onboarding initiatives by aligning lifecycle communications with project goals.",
+          "evidence_ids": [],
+          "approval_status": "SOURCE_VERIFIED",
+          "relevance_terms": [
+            "onboarding"
+          ],
+          "relevance_score": 1
+        },
+        {
+          "id": "porsche-4",
+          "text": "Acted as liaison between dealer partners and internal teams to communicate and execute project requirements.",
+          "evidence_ids": [],
+          "approval_status": "SOURCE_VERIFIED",
+          "relevance_terms": [
+            "teams"
+          ],
+          "relevance_score": 1
+        },
+        {
+          "id": "porsche-1",
+          "text": "Partnered with dealer executives to assess needs, plan training programs, and deliver staff enablement sessions.",
+          "evidence_ids": [],
+          "approval_status": "SOURCE_VERIFIED",
+          "relevance_terms": [],
+          "relevance_score": 0
+        },
+        {
+          "id": "porsche-2",
+          "text": "Developed project reports and training materials supporting continuous improvement across dealer operations.",
+          "evidence_ids": [],
+          "approval_status": "SOURCE_VERIFIED",
+          "relevance_terms": [],
+          "relevance_score": 0
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Western Governors University",
+      "degree": "Bachelor of Science in Business Management",
+      "status": "In progress",
+      "expected_graduation": "December 2026",
+      "source_status": "user_confirmed"
+    }
+  ],
+  "portfolio_items": [
+    {
+      "evidence_id": "portfolio-cf001",
+      "evidence_type": "user_provided_unverified",
+      "statement": "Completed a simulated enterprise AI opportunity discovery project for a Vehicle Status Digital Worker.",
+      "relevance_terms": [
+        "ai",
+        "enterprise"
+      ],
+      "relevance_score": 2,
+      "resume_status": "USER_CONFIRMATION_REQUIRED"
+    },
+    {
+      "evidence_id": "portfolio-cf002",
+      "evidence_type": "user_provided_unverified",
+      "statement": "Built a Python and Claude API Digital Worker using JSON data and tool calling, then ran six functional scenarios.",
+      "relevance_terms": [
+        "calling",
+        "tool"
+      ],
+      "relevance_score": 2,
+      "resume_status": "USER_CONFIRMATION_REQUIRED"
+    }
+  ],
+  "approval_requirements": [
+    "SUMMARY",
+    "BULLET_SELECTION",
+    "SKILLS",
+    "PORTFOLIO_CLAIMS",
+    "FINAL_DOCUMENT"
+  ]
+}

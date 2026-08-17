@@ -1,0 +1,11 @@
+{
+  "company": "Example AI Company",
+  "title": "Customer Success Manager, AI",
+  "source_url": "https://example.com/jobs/123",
+  "source_name": "Example company careers page",
+  "location": "Miami, FL",
+  "salary_text": null,
+  "displayed_posting_text": "Posted today",
+  "published_at": "2026-08-17T13:00:00-04:00",
+  "description": "Responsibilities:\n- Lead enterprise customer onboarding and implementation.\n- Translate customer feedback for product and engineering teams.\nRequired Qualifications:\n- Must have customer-facing SaaS experience.\nPreferred Qualifications:\n- Experience with LLM tool calling."
+}

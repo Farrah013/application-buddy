@@ -20,7 +20,7 @@ Source reviewed: `Client Success Manager Resume.pdf`, one page.
 - Add CF-001 and CF-002 under an independent Agentic AI portfolio section.
 - Add an ATS-friendly summary aligned with customer-facing AI roles.
 - Replace the broad skills block with grouped, evidence-supported keywords.
-- Add the bachelor’s degree only after the institution and degree program are confirmed. Use December 2026 as the expected graduation date.
+- Education entry: Western Governors University, Bachelor of Science in Business Management, expected December 2026. Do not present the degree as completed before graduation.
 - Do not store, display, or reference planned or in-progress certifications.
 - Add named tools only after confirming hands-on use.
 - Verify every outcome statement currently lacking a number or source.

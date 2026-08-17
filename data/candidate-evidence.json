@@ -5,8 +5,9 @@
     "highest_confirmed_level": "High school",
     "bachelors_status": "In progress",
     "expected_graduation": "2026-12",
-    "institution": "USER_CONFIRMATION_REQUIRED",
-    "degree_program": "USER_CONFIRMATION_REQUIRED"
+    "institution": "Western Governors University",
+    "degree_program": "Bachelor of Science in Business Management",
+    "source_status": "user_confirmed"
   },
   "credentials": [],
   "software_baseline": [

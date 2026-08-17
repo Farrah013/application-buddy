@@ -52,3 +52,10 @@
 - Public-source research workflow: 2 to 3 hours
 - Outreach approval, opt-out, and follow-up rules: 2 to 3 hours
 - Tests and documentation: 1 to 2 hours
+
+## Phase 7: Approved résumé production, estimated 5 to 8 hours
+
+- Verify remaining professional claims and metrics: 2 to 3 hours
+- Audit CF-001 and CF-002 résumé claims: 1 to 2 hours
+- Approve master summary, skills, and bullets: 1 to 2 hours
+- Produce and review role-specific DOCX and PDF versions: 1 to 2 hours
